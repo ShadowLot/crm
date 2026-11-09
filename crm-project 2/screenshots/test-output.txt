@@ -1,0 +1,15 @@
+ok 1 - health endpoint responds
+ok 2 - protected routes reject unauthenticated requests
+ok 3 - registration validates input
+ok 4 - users can register and log in
+ok 5 - contact CRUD works
+ok 6 - contact validation rejects bad status and oversized names
+ok 7 - deals are linked to owned contacts and can change stage
+ok 8 - another user cannot read, modify or delete someone else's records (IDOR)
+ok 9 - dashboard aggregates the user's own data
+ok 10 - activities can be created and toggled
+ok 11 - SQL-injection style input is treated as plain data
+ok 12 - malformed JSON returns 400, not a stack trace
+# tests 12
+# pass 12
+# fail 0
